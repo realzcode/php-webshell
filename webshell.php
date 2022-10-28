@@ -3,7 +3,7 @@
  * ------------
  * By @realzcode
  */
-$p='password';
+$p="password";
 session_start();
 if(!empty($_SESSION["p"])){
 if($_SESSION["p"]!==$p){
